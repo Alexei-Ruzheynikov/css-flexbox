@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+  background: red;
+  /* flex-direction: row-reverse; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 150px;
+  /* flex-wrap: wrap-reverse; */
+  align-content: center;
+  /* order 0 - обычный порядок, 1 - в конец и тд */
+}
+.block {
+  /* height: 20px; */
+  /* width: 20%; */
+  text-align: center;
+  background: green;
+}
+.block-1 {
+  /* align-self: flex-end; */
+  flex-grow: 1;
+}
